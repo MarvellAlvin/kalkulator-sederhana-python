@@ -31,5 +31,5 @@ apt install python3-pip
 git clone https://github.com/MarvellAlvin/kalkulator-sederhana-python.git
 cd kalkulator-sederhana-python
 pip3 install -r install.txt
-python3 brutal.py
+python3 main.py
 ```
