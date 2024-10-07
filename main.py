@@ -2,6 +2,7 @@
 import os,sys,time
 from colorama import Fore,Back,init
 
+# Mendefinisikan autoketik adalah print kalimat yang seperti diketik
 def autoketik(s):
     for c in s + "\n":
         sys.stdout.write(c)
@@ -40,14 +41,14 @@ def pembagian(a, b):
 # Teks Pada Awal Kode Saat Di Run
 os.system("clear") # Untuk Menghapus Semua Elemen Dari Suatu Set, Sehingga Menghasilkan Set Yang Kosong
 autoketik(f"{W}[{R}•{W}] {kuning}Loading...")
-time.sleep(1)
+time.sleep(1) # Untuk menjeda sebentar
 autoketik(f"{W}[{R}•{W}] {biru}Script By Marpel")
 time.sleep(1)
 os.system("clear")
 autoketik(f"""
 {abu}-----------------------------------------
 {Y}K {W}A {R}L {G}K {Y}U {ungu}L {biru}A {Y}T {W}O {R}R  {Y}S {W}E {R}D {G}E {Y}R {ungu}H {biru}A {Y}N {W}A\n{Y}P {W}Y {R}T {G}H {Y}O {ungu}N\n{putih}[{R}•{putih}] {biru}Author {putih}: Marvell\n{putih}[{R}•{putih}] {biru}Github {putih}: MarvellAlvin\n{putih}[{R}•{putih}] {biru}Instagram {putih}: marpell_xyz\n{abu}-----------------------------------------
-""") # Judul dan Deskripsi
+""") # Judul dan Deskripsi. \n adalah seperti enter
 
 while True:
     print(f"""{abu}-----------------------------------------\n{W}[{R}• {kuning}•{hijau}•{W}] M E N U {W}[{R}• {kuning}•{hijau}•{W}]\n{W}[{ungu}1{W}] {kuning}Penjumlahan\n{W}[{ungu}2{W}] {kuning}Pengurangan\n{W}[{ungu}3{W}] {kuning}Perkalian\n{W}[{ungu}4{W}] {kuning}Pembagian\n{W}[{ungu}5{W}] {kuning}Keluar{W}""") # Menu Kalkulator
