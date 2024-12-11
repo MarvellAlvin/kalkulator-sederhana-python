@@ -17,7 +17,7 @@ Hanya kalkulator sederhana yang menggunakan kode python dan ditambahkan warna un
 apt update -y && apt upgrade -y
 apt install git -y
 apt install python -y
-git clone https://github.com/MarvellAlvin/kalkulator-sederhana-python.git
+git clone https://github.com/MarvellAlvin/kalkulator-sederhana-python
 cd kalkulator-sederhana-python
 pip install -r install.txt
 python main.py
